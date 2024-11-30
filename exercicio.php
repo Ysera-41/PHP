@@ -24,7 +24,7 @@
             <?php
                 //include($_GET['dir']."/".$_GET['file']."php");
                 //include("{$_GET['dir'}/{$_GET['file']}.php");
-                include('teste/teste.php')
+            include("{$_GET['dir']}/{$_GET['file']}.php");
             ?>
         </div>
     </main>
